@@ -1,0 +1,13 @@
+﻿  pch.cpp
+  UnitTest1.cpp
+D:\AP\LABAP\9\laba9.3\UnitTest1\UnitTest1.cpp(21,1): warning C4094: пустое объявление "struct" пропускается
+D:\AP\LABAP\9\laba9.3\UnitTest1\UnitTest1.cpp(26,1): warning C4305: аргумент: усечение из "int" в "const _Elem"
+          with
+          [
+              _Elem=char
+          ]
+D:\AP\LABAP\9\laba9.3\UnitTest1\UnitTest1.cpp(26,18): warning C4309: аргумент: усечение константного значения
+D:\AP\LABAP\9\laba9.3\UnitTest1\UnitTest1.cpp(29,1): error C2665: Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual: ни одна из 8 перегрузок не может преобразовать все типы аргументов
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(187,15): message : может быть "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const wchar_t *,const wchar_t *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)"
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Auxiliary\VS\UnitTest\include\CppUnitTestAssert.h(168,15): message : или       "void Microsoft::VisualStudio::CppUnitTestFramework::Assert::AreEqual(const char *,const char *,bool,const wchar_t *,const Microsoft::VisualStudio::CppUnitTestFramework::__LineInfo *)"
+D:\AP\LABAP\9\laba9.3\UnitTest1\UnitTest1.cpp(29,1): message : при попытке сопоставить список аргументов "(Bill, int)"
